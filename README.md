@@ -4,7 +4,7 @@ A Curses-based Hex Editor for Linux
 ### Background
 I was looking for a Linux terminal hex editor for quite some time, and tried a lot of them but never quite found the right one for me. That is why I decided to create Poppet.
 
-The name "Poppet" comes from a tutorial I came across while looking for documentation on [hexcurse](https://github.com/LonnyGomes/hexcurse), which described, not how to use a hex editor, but rather how to lift a curse cast on someone (witchcraft and such). My friend and I had a good laugh, and the name stuck.
+The name "Poppet" comes from a tutorial I came across while looking for documentation on [hexcurse](https://github.com/LonnyGomes/hexcurse), which described, not how to use a hex editor, but rather how to lift a curse cast on someone by using a poppet, purple candles, and willow branches (witchcraft and such). My friend and I had a good laugh, and the name stuck.
 
 ### Planned Features
 Poppet was created in order to add support for all the things I couldn't do in the other terminal-based editors.
