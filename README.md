@@ -23,5 +23,8 @@ Poppet was created in order to add support for all the things I couldn't do in t
 - Bad color choices, bad variable names
 - MESSY CODE
 
+### Latest Screenshots:
+- ![alt text](http://35.gotdns.ch:42805/?id=poppet_latest&silent=please "Latest Screenshot")
+
 ### Pull Requests
 Pull requests are welcome and encouraged, but are subject to review (as one might expect). I want this application to be useful to everyone, and to be the best available. For that, I need the community's  help.
