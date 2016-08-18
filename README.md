@@ -16,8 +16,12 @@ Poppet was created in order to add support for all the things I couldn't do in t
 ### Current Progress:
 - Stores file descriptors in list
 - Buffers only `offset <= byte < (offset+length)` (large files don't choke RAM)
-- Sweet hex/ascii layout (similar to `$ hexdump -vC`)
+- ~~Sweet hex/ascii layout (similar to `$ hexdump -vC`)~~
 - Auto-resizing editor panes (curses)
+- Contained cursor (stays within bounds)
+- Tab key switches from HEX editor to ASCII editor (just like hexedit, hexcurse, and dhex)
+- Bad color choices, bad variable names
+- MESSY CODE
 
 ### Pull Requests
 Pull requests are welcome and encouraged, but are subject to review (as one might expect). I want this application to be useful to everyone, and to be the best available. For that, I need the community's  help.
