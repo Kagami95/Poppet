@@ -117,8 +117,6 @@ def update_editor():
 	offset = 0
 	for number in range(len(get_hex())):
 		line = get_hex()[number]
-		if number == 0:
-			hex_window.addstr(25, 5, ''.join(line).decode('hex').replace('\n', '\\n'))
 		hex_text = ''
 		ascii_text = ''
 		for byte in line:
