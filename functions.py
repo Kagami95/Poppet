@@ -14,6 +14,7 @@ disp_buffer = '' # What gets shown
 width = 24-1 # 24 bytes per line
 
 def open_file(path):
+	global open_files
 	if not os.path.exists(path):
 		return ERROR_NOSUCHFILE
 	open_files.append(open(path, 'rw'))
@@ -26,6 +27,7 @@ def read_bytes(file, start, end):
 		return ERROR_READ
 
 def get_lines(): # returns lines of length `width`
+	global disp_buffer, width
 	line = ''
 	lines = []
 	column = 0
@@ -41,6 +43,7 @@ def get_lines(): # returns lines of length `width`
 	return lines
 
 def format_hex():
+	global width
 	value = ''
 	offset = 0
 	addr_prefix = '0x%s | '
@@ -62,15 +65,10 @@ def format_hex():
 		offset += len(ascii_line)
 	return value
 
-def exit():
+def close_files():
 	for file in open_files:
 		file.close()
 
-def run1():
+def buf(file, start, end):
 	global disp_buffer
-	open_file('./lorem_ipsum.txt')
-	disp_buffer = read_bytes(open_files[0], 512, 2048) # start at offset 512, runs for 1536 bytes
-	print format_hex()
-	exit()
-
-run1()
+	disp_buffer = read_bytes(file, start, end) # start at offset 512, runs for 1536 bytes
