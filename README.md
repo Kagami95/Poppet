@@ -24,7 +24,7 @@ Poppet was created in order to add support for all the things I couldn't do in t
 - MESSY CODE
 
 ### Latest Screenshots:
-- ![alt text](https://raw.githubusercontent.com/Kagami95/Poppet/master/latest_screenshot.png)
+- ![screenshot](https://raw.githubusercontent.com/Kagami95/Poppet/master/latest_screenshot.png)
 
 ### Pull Requests
 Pull requests are welcome and encouraged, but are subject to review (as one might expect). I want this application to be useful to everyone, and to be the best available. For that, I need the community's  help.
