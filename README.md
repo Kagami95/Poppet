@@ -23,8 +23,23 @@ Poppet was created in order to add support for all the things I couldn't do in t
 - Bad color choices, bad variable names
 - MESSY CODE
 
+### TODO
+- Rewrite Editor (make beta2)
+- Byte-wise cursor
+- Write buffer
+- Interface:
+	- Window resize catching (redraw display)
+	- Close file dialogue (save/discard/cancel)
+	- Goto offset dialogue
+	- Search for byte sequence dialogue
+- Hotkeys:
+	- Arrow keys: move cursor
+	- Ctrl+G: goto
+	- Ctrl+F: find (search)
+	- Shift+Up and Shift+Down: inc/decrement highlighted byte
+
 ### Latest Screenshots:
-- ![screenshot](https://raw.githubusercontent.com/Kagami95/Poppet/master/latest_screenshot.png)
+![screenshot](https://raw.githubusercontent.com/Kagami95/Poppet/master/latest_screenshot.png)
 
 ### Pull Requests
 Pull requests are welcome and encouraged, but are subject to review (as one might expect). I want this application to be useful to everyone, and to be the best available. For that, I need the community's  help.
