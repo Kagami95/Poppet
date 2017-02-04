@@ -21,11 +21,12 @@ Poppet was created to do for all the things I couldn't do in the other terminal-
 - ~~Bad color choices, bad variable names~~
 - ~~MESSY CODE~~
 - Creating editor_beta2.py:
-	- Draw editor windows
-	- Cleaner code
+	- [x] Draw editor windows
+	- [x] Cleaner code
+	- [x] Cursor moves
 
 ### TODO
-- **[IN PROGRESS]** Rewrite Editor (make beta2)
+- **[COMPLETED]** Rewrite Editor (make beta2)
 - Buffer only `offset <= byte < (offset+length)` (large files don't choke RAM)
 - Byte-wise cursor
 - Write buffer
